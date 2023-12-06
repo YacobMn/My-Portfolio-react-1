@@ -1,16 +1,33 @@
-import { useState } from 'react'
-
-
+// import { useState } from 'react'
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import Header from './Components/Header/Header';
+import Nav from './Components/Nav/Nav';
+import Project from './Components/Project/Project';
+import Resume from './Components/Resume/Resume';
+import Footer from './Components/Footer/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+
+
+export default function App() {
+  
 
   return (
-    <>
-    
-    </>
+    <div>
+      <Header />
+      <main>
+        <About />
+        <Contact />
+        <Nav />
+        <Project />
+        <Resume />
+      </main>
+
+      <Footer />
+    </div>
   )
- 
-  }
-export default App
+}
+
+
