@@ -17,10 +17,10 @@ export default function App() {
   return (
     <div>
       <Header />
+      <Nav />
       <main>
         <About />
         <Contact />
-        <Nav />
         <Project />
         <Resume />
       </main>
