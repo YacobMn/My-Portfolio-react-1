@@ -1,48 +1,34 @@
+import "./Nav.css"
 
 
+export default function Nav() {
 
 
-
-export default function Nav(){
-
-    const linkStyle = { border: '1px black', padding: '5px' };
-    return(
-
-    <>
-         {/* <nav className="main-header-menu"> */}
-        
-      <section
-         style={{
-          display: 'flex',
-          fontFamily: 'helvetica',
-           flexDirection: 'row',
-          alignItems: 'flex-start',
-           justifyContent: 'flex-start',
-         }}
-        >
-         <section
-         style-1={{
-          
-         }}
-        >
-      </section>
-        <h2>Yacob Menghistu </h2>
-        <h3 style={linkStyle}>
-          <a href="#">Project</a>
+  return (
+    <nav className="nav-bar">
+      <a herf="/" className="name-site"> Yacob Menghistu </a>
+      <ul className="button-sites">
+        <h3>
+        <a href="/About">
+          About
+        </a>
         </h3>
-        <h3 style={linkStyle}>
-          <a href="#">About </a>
+        <h3>
+        <a href="/Resume">
+          Resume
+        </a>
         </h3>
-        <h3 style={linkStyle}>
-          <a href="#">Contact</a>
+        <h3>
+        <a href="/Contact">
+          Contact
+        </a>
         </h3>
-        <h3 style={linkStyle}>
-          <a href="#">Resume</a>
-        </h3>
-      
-      </section>
-    </>
-        
-        
-    );
+      </ul>
+
+
+
+    </nav>
+  );
 }
+
+

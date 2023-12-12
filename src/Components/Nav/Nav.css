@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: rgb(86, 55, 55);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 2rem;
+    padding: 0 1rem;
+    
+
+}
+/* .nav-bar:hover {
+    background-color: beige; */
+/* } */
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+.site-name{
+    color: aquamarine;
+}
