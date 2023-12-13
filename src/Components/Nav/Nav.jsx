@@ -1,25 +1,26 @@
 import "./Nav.css"
 
 
-export default function Nav() {
+
+export default function Nav({setPage}) {
 
 
   return (
     <nav className="nav-bar">
       <a herf="/" className="name-site"> Yacob Menghistu </a>
       <ul>
-        <li>
-          <a href="/about">About</a>
+        <li onClick={()=> setPage('about')}>
+          <a href="#">About</a>
         </li>
-        <li>
-          <a href="/Portfolio">Portfolio</a>
+        <li onClick={()=> setPage('project')}>
+          <a href="#">Portfolio</a>
         </li>
-        <li>
-          <a href="/contact">Contact</a>
+        <li onClick={()=> setPage('contact')}>
+          <a href="#">Contact</a>
         </li>
           
-        <li>
-          <a href="/resume">Resume</a>
+        <li onClick={()=> setPage('resume')}>
+          <a href="#">Resume</a>
         </li>
 
       </ul>

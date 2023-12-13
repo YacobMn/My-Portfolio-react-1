@@ -1,22 +1,19 @@
-
+import "react-bootstrap/Button"
 import "./About.css"
-//import Photo from "../assets/linkedin"
+import Photo from "../../assets/linkedin.svg"
 
 
 
 
 export default function About(){
 
-
-
     return(
 
         <>
-        {/* <div class="gallery">
-        <a target="_blank" href="linkedin"> </a>
-        <a img src={Photo} alt="Cinque Terre" width="600" height="400">
-        </a>
-        </div> */}
+        <div class="gallery">
+        <a target="_blank" href="linkedin.svg"/> 
+        <img src={Photo} alt="Cinque Terre" width="600" height="400"/>
+        </div>
   
         <div className="all">
         <h4 className="tittle">About</h4>
@@ -31,6 +28,7 @@ Bringing it Together:
 The magic happens when I merge these passions. Whether it's creating stunning websites to showcase visual masterpieces or integrating immersive media for a captivating user journey, I thrive at the intersection of art and technology.
 Explore my portfolio, where visuals and code collide to form captivating stories. Let's embark on a creative journey together!
         </a>
+        
         </div>
         </>
 

@@ -1,28 +1,36 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Photo1 from '../../assets/github.svg'
+
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import './Project.css'
 
 function Project() {
   return (
-    <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
-      </Form.Group>
-
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+    <>
+    <div className="pic">
+      <div class="gallery">
+        <a target="_blank" href="linkedin.svg"/> 
+        <img src={Photo1} alt="Cinque Terre" width="1000" height="800"/>
+      </div>
+     </div> 
+      {/* <div class="gallery">
+        <a target="_blank" href="linkedin.svg"/> 
+        <img src={Photo1} alt="Cinque Terre" width="1000" height="800"/>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="linkedin.svg"/> 
+        <img src={Photo1} alt="Cinque Terre" width="1000" height="800"/>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="linkedin.svg"/> 
+        <img src={Photo1} alt="Cinque Terre" width="1000" height="800"/>
+      </div> */}
+  </>
+     
   );
 }
 
