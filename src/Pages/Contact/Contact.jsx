@@ -1,17 +1,11 @@
 
 
 
-
-
-
-export default function Contact(){
-
-
-
-    return(
-
-        <>
-        <a>Contact</a>
-        </>
-    );
+export default function Contact() {
+  return (
+    <>
+  
+    </>
+  );
 }
+

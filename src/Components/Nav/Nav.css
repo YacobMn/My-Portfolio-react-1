@@ -7,9 +7,10 @@ body {
 
 .nav-bar {
     background-color: rgb(86, 55, 55);
+    color: rgb(226, 230, 230);
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
     gap: 2rem;
     padding: 0 1rem;
     
@@ -18,10 +19,23 @@ body {
 /* .nav-bar:hover {
     background-color: beige; */
 /* } */
+.nav-bar ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+   
+    
+}
+.name-site{
+    font-size: 1.5rem;
+}
 .nav-bar a {
     color: white;
     text-decoration: none;
-}
-.site-name{
-    color: aquamarine;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
 }

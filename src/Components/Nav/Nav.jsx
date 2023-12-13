@@ -7,24 +7,22 @@ export default function Nav() {
   return (
     <nav className="nav-bar">
       <a herf="/" className="name-site"> Yacob Menghistu </a>
-      <ul className="button-sites">
-        <h3>
-        <a href="/About">
-          About
-        </a>
-        </h3>
-        <h3>
-        <a href="/Resume">
-          Resume
-        </a>
-        </h3>
-        <h3>
-        <a href="/Contact">
-          Contact
-        </a>
-        </h3>
-      </ul>
+      <ul>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/Portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+          
+        <li>
+          <a href="/resume">Resume</a>
+        </li>
 
+      </ul>
 
 
     </nav>
