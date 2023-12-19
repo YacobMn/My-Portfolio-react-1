@@ -1,6 +1,6 @@
 import "react-bootstrap/Button"
 import "./About.css"
-import Photo from "../../assets/linkedin.svg"
+// import Photo from "../../assets/linkedin.svg"
 
 
 
@@ -10,10 +10,10 @@ export default function About(){
     return(
 
         <>
-        <div class="gallery">
+        {/* <div class="gallery">
         <a target="_blank" href="linkedin.svg"/> 
         <img src={Photo} alt="Cinque Terre" width="600" height="400"/>
-        </div>
+        </div> */}
   
         <div className="all">
         <h4 className="tittle">About</h4>
