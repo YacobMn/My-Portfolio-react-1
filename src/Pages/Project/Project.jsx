@@ -11,10 +11,9 @@ export default function Project() {
         <Card style={{ width: '10rem' }}>
           <Card.Img className="photo-1" src={Photo} />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Project work</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Some work i have done. 
             </Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
